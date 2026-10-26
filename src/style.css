@@ -287,7 +287,7 @@ button { font: inherit; }
 .skill-item__mark--react { font-size: 21px; }
 .skill-item__mark--html { font-size: 10px; }
 .skill-item__mark--networking svg { width: 21px; height: 21px; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
-.skill-item__mark--draw { font-size: 19px; }
+.skill-item__mark--laravel { font-size: 18px; font-weight: 800; }
 .skill-item__copy { display: grid; gap: 5px; }
 .skill-item__copy strong { color: var(--ink); font-size: 11px; font-weight: 600; }
 .skill-item__progress-row { display: grid; grid-template-columns: 34px minmax(0, 1fr); align-items: center; gap: 10px; }

@@ -58,17 +58,17 @@ const skills = [
   {
     name: "React",
     mark: "⚛",
-    level: 50,
+    level: 45,
   },
   {
     name: "JavaScript",
     mark: "JS",
-    level: 50,
+    level: 49,
   },
   {
     name: "HTML & CSS",
     mark: "</>",
-    level: 50,
+    level: 55,
   },
   {
     name: "Networking",
@@ -78,12 +78,12 @@ const skills = [
         <circle cx="12" cy="19" r="1.5" fill="currentColor" stroke="none" />
       </svg>
     ),
-    level: 50,
+    level: 40,
   },
   {
-    name: "Draw.io",
-    mark: "◇",
-    level: 50,
+    name: "Laravel",
+    mark: "L",
+    level: 58,
   },
 ];
 
@@ -308,8 +308,11 @@ function App() {
               <span className="accent-text">Galang Surya Nata Budi Kesumah.</span>
             </h1>
             <p className="hero__intro">
-              Mahasiswa dan calon <strong>frontend developer</strong> yang senang
-              mengubah ide menjadi website yang menarik, responsif, dan mudah digunakan.
+              Mahasiswa Teknik Informatika di STITEK Bontang yang berfokus pada web
+              development dan desain antarmuka. Terbiasa menggabungkan pengalaman
+              praktis di lapangan dengan ilmu akademis untuk merancang serta membangun
+              aplikasi web yang responsif, interaktif, modern, dan memberikan
+              pengalaman pengguna yang optimal.
             </p>
             <div className="hero__specialties" aria-label="Fokus keahlian">
               <span>Frontend Development</span>
