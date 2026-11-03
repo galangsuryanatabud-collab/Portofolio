@@ -426,7 +426,14 @@ function App() {
                 mendedikasikan diri untuk merampungkan studi tingkat lanjut di Sekolah
                 Tinggi Teknologi Bontang.
               </p>
-              <a className="text-link text-link--underlined" href="#contact" onClick={scrollToTarget} data-reveal style={{ "--reveal-delay": "380ms" }}>
+              <p data-reveal style={{ "--reveal-delay": "380ms" }}>
+                Di luar kegiatan akademis dan pekerjaan, saya aktif berkontribusi di
+                BEM STITEK Bontang. Perjalanan organisasi saya dimulai dari Anggota
+                Magang (2024), berlanjut menjadi Staf Kementerian Luar Negeri (2025),
+                hingga dipercaya mengemban amanah sebagai Menteri Luar Negeri BEM
+                STITEK Bontang (2026).
+              </p>
+              <a className="text-link text-link--underlined" href="#contact" onClick={scrollToTarget} data-reveal style={{ "--reveal-delay": "480ms" }}>
                 Diskusi Proyek <ArrowIcon diagonal />
               </a>
               <div className="about-runner" aria-hidden="true">
@@ -602,7 +609,7 @@ function App() {
                   <path d="M5.2 3.5a1.8 1.8 0 1 1 0 3.6 1.8 1.8 0 0 1 0-3.6ZM3.7 8.5h3v11h-3v-11Zm5 0h2.9V10h.04c.4-.76 1.4-1.85 3.33-1.85 3.56 0 4.22 2.34 4.22 5.38v5.97h-3v-5.29c0-1.26-.02-2.88-1.76-2.88-1.76 0-2.03 1.37-2.03 2.79v5.38h-3v-11Z" />
                 </svg>
               </a>
-              <a className="contact__platform" href="mailto:galangsuryanatabudi@gmail.com" aria-label="Email ke Gmail: galangsuryanatabudi@gmail.com" data-reveal style={{ "--reveal-delay": "620ms" }}>
+              <a className="contact__platform" href="mailto:galangsuryanatabudi@gmail.com" aria-label="Email" title="Email" data-reveal style={{ "--reveal-delay": "620ms" }}>
                 <svg aria-hidden="true" viewBox="0 0 24 24" fill="none">
                   <rect x="3" y="5" width="18" height="14" rx="2" />
                   <path d="m4 7 8 6 8-6" />
