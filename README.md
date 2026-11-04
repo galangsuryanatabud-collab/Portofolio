@@ -203,17 +203,3 @@ beberapa animasi sesuai aturan `prefers-reduced-motion`.
   `.portfolio--bem` pada `src/style.css`.
 - Simpan gambar pengganti di folder proyek, lalu sesuaikan import di bagian
   awal `src/App.jsx`.
-
-## Catatan untuk presentasi
-
-Contoh penjelasan singkat:
-
-> “Portofolio ini dibuat dengan React untuk menyusun halaman dan mengelola
-> interaksi, sedangkan Vite digunakan untuk menjalankan dan membangun proyek.
-> Animasi dibuat dengan CSS keyframes dan JavaScript. Contohnya, perpindahan
-> foto memakai View Transitions API dengan `clip-path`, progress keahlian
-> dianimasikan dengan `requestAnimationFrame`, dan bagian dinosaurus dibuat
-> menggunakan SVG. Desainnya juga responsif agar tetap nyaman digunakan di
-> ponsel.”
-
-Build produksi dapat diperiksa dengan menjalankan `npm run build`.
