@@ -190,16 +190,3 @@ beberapa animasi sesuai aturan `prefers-reduced-motion`.
 ├── Dashboard Kharisma.png
 └── Barang Admin.png
 ```
-
-## Mengubah isi portofolio
-
-- Ubah daftar foto dan tema pada array `portraits` di `src/App.jsx`.
-- Ubah daftar proyek pada array `projects`, termasuk nama file gambar dan
-  deskripsi proyek.
-- Ubah daftar teknologi dan nilai progress pada array `skills`.
-- Ubah teks bagian Tentang Saya, tautan sosial, dan informasi kontak langsung
-  di komponen `App`.
-- Ubah warna melalui custom properties di bagian `:root` dan
-  `.portfolio--bem` pada `src/style.css`.
-- Simpan gambar pengganti di folder proyek, lalu sesuaikan import di bagian
-  awal `src/App.jsx`.
